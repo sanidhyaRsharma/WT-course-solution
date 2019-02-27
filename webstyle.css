@@ -1,0 +1,52 @@
+body{
+    background: black;
+    color:white;
+}
+.container{
+    margin: 0 20px;
+}
+.header{
+    background:rgba(200,200,200,0.45);
+    padding:5px;
+    text-align: center;
+    position: relative;
+}
+.auth-container{
+    display: inline-block;
+    width:320px;
+    height:100%;
+    /* padding:30px; */
+    position:absolute;
+    right:0;
+    top:0;
+    background: #aaaaaa; 
+}
+.auth{
+    padding:20px;
+    font-size:22px;
+    font-weight: bold;
+}
+.nav {
+    margin: 30px 0;
+}
+.nav ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    overflow: hidden;
+    background:rgb(100,100,100);
+
+}
+.nav ul li{
+    float:left;
+}
+.nav ul li a{
+    display:block;
+    padding:20px;
+    font-size: 18px;
+    background:rgb(100,100,100);
+
+}
+.nav ul li a:hover{
+    background:rgb(150,150,150);
+}

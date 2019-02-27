@@ -1,0 +1,116 @@
+body {
+    background-image: linear-gradient(to right, blue, indigo, violet, red, white);
+}
+
+.container {
+    width: 100%;
+    /* text-align: center; */
+}
+
+.center-box {
+    width: 400px;
+    margin: 0 auto;
+    background: rgba(80, 80, 80, 0.45);
+    overflow: auto;
+    position: relative;
+}
+
+.center-box h2 {
+    margin: 0 auto;
+    padding: 25px 0;
+    background: rgba(40, 40, 40, 1);
+    color: #bbbbbb;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.input-wrapper {
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin: 10px 10px 10px 0px;
+    width: 85%;
+    position: relative;
+    background-color: #dddddd;
+}
+
+.input-wrapper input {
+    border: none;
+    width: 90%;
+    background-color: #dddddd;
+    padding: 10px 1px 11px 41px;
+}
+
+.input-wrapper i {
+    position: absolute;
+    background-color: #dddddd;
+    margin: 1px;
+    left: 0;
+    padding: 9px;
+    /* z-index:20; */
+}
+
+.btn-container {
+    text-align: center;
+    margin: 5px 0 15px 0;
+    color: white;
+}
+
+.btn-login {
+    margin: 10px auto;
+    background-color: rgb(101, 55, 255);
+    width: 80%;
+    padding: 20px 10px;
+    font-size: 18px;
+    border: 1px solid rgb(100, 55, 255);
+    border-radius: 4px;
+    box-shadow: 0 5px rgb(205, 86, 205);
+}
+
+.btn-login:active {
+    transform: translate(0, 5px);
+    box-shadow: 0 0;
+}
+
+.btn-f {
+    display: inline-block;
+    width: 140px;
+    background-color: #3159af;
+    padding: 10px;
+	margin: 0 10px
+}
+.btn-f:hover {
+	box-shadow: 0 2px rgba(0,0,0,0.2);
+}
+.btn-t:hover{
+	box-shadow: 0 2px rgba(0,0,0,0.2);
+}
+
+.btn-t {
+    display: inline-block;
+    width: 140px;
+    background-color: #20aee6;
+    padding: 10px;
+    margin: 0 10px
+}
+
+#img-progress {
+    width: 170px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.close-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.footer {
+    padding: 10px 20px;
+    background: rgba(40, 40, 40, 0.45);
+    color: white;
+}
