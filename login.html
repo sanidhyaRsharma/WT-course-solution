@@ -7,17 +7,17 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
 		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-
+	<script type="text/javascript" src="login-anim.js"> </script>
 </head>
 
 <body>
-	<div class="container">
+	<div class="container" id="body-container">
 		<div class="center-box">
 			<div class="header">
 				<h2>Client Login</h2>
 			</div>
-			<div class="close-icon">
-				<i class="fa fa-times-circle"></i>
+			<div class="close-icon" >
+				<img width="20px" height="20px" src ="img/cross-icon.png" id="close-button">
 			</div>
 			<div class="login-body">
 				<div class="center-container">
@@ -31,7 +31,7 @@
 							<input type="text" placeholder="Username">
 						</div>
 						<div class="input-wrapper">
-							<img class="input-icon" src="img/cross-icon.png">
+							<i class="input-icon fa fa-key"></i>
 							<input type="password" placeholder="Password">
 						</div>
 					</form>
