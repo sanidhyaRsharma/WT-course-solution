@@ -27,7 +27,7 @@ body{
     font-weight: bold;
 }
 .nav {
-    margin: 30px 0;
+    margin: 10px 0;
 }
 .nav ul{
     padding:0;
@@ -49,4 +49,40 @@ body{
 }
 .nav ul li a:hover{
     background:rgb(150,150,150);
+}
+
+.side-bar{
+    float:left;
+    background: rgb(100,100,100);
+    width: 300px;
+    margin-right:5px;
+    text-align: center;
+}
+.main-content{
+    float:left;
+    background: rgb(100,100,100);
+    width:50%;
+}
+
+.side-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.side-bar ul li a{
+    display: block;
+    padding: 15px 0;
+    border: solid rgb(100,100,100) 1px;
+}
+.side-bar ul li a:hover{
+    background: #009ad6;
+    border: solid #dddddd 1px;
+}
+
+.right-side-bar{
+    float:right;
+    background: rgb(100,100,100);
+    width: 300px;
+    margin-left:5px;
+    text-align: center;
 }
