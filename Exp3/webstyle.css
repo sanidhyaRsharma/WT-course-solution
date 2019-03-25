@@ -1,6 +1,7 @@
-body{
+html, body{
     background: black;
     color:white;
+    height:100%;
 }
 .container{
     margin: 0 20px;
@@ -54,14 +55,24 @@ body{
 .side-bar{
     float:left;
     background: rgb(100,100,100);
-    width: 300px;
-    margin-right:5px;
+    width: 24%;
+    /* margin-right:5px; */
     text-align: center;
+    height:100%;
 }
 .main-content{
     float:left;
     background: rgb(100,100,100);
     width:50%;
+    margin-left:7px;
+}
+.right-side-bar{
+    float:right;
+    background: rgb(100,100,100);
+    width: 25%;
+    /* margin-left:5px; */
+    text-align: center;
+
 }
 
 .side-bar ul{
@@ -79,10 +90,3 @@ body{
     border: solid #dddddd 1px;
 }
 
-.right-side-bar{
-    float:right;
-    background: rgb(100,100,100);
-    width: 300px;
-    margin-left:5px;
-    text-align: center;
-}
