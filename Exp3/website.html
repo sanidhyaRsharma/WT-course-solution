@@ -25,23 +25,96 @@
                 <li><a>Help</a></li>
             </ul>
         </div>
-        <div>
+        <div class="content">
             <div class = "side-bar">
                 <ul>
-                    <li><a>Registration</a></li>
-                    <li><a>Tabular Data</a></li>
-                    <li><a>Color Maker</a></li>
-                    <li><a>Article</a></li>
-                    <li><a>Contact Form</a></li>
+                    <li><a class="btn active">Registration</a></li>
+                    <li><a class="btn">Tabular Data</a></li>
+                    <li><a class="btn">Color Maker</a></li>
+                    <li><a class="btn">Article</a></li>
+                    <li><a class="btn">Contact Form</a></li>
                 </ul>
             </div>
-            <div class = "main-content"> Main bar</div>
+            <div id = "page1" class = "main-content">
+                    <form style="width: 600px; display:block; margin: 0 auto;">
+                        <div style="display: inline-block;width: 10%;"><label for="email">Email:</label></div>
+                        <input type="email" placeholder="Email" style="padding : 5px;width: 50%;" /><br><br>
+                        <div style="display: inline-block;width: 10%;"><label for="password">Password:</label></div>
+                        <input type="password" placeholder="Password" style="padding : 5px;width: 50%;"/><br><br>
+                        <input type="submit" value="Submit" style="display: block;margin: 0 auto;"/>
+                    </form>
+            </div>
+            <div id = "page2" class = "main-content">
+                    <table style="width:100%;"> 
+                            <tr> 
+                              <th>Firstname</th> 
+                              <th>Lastname</th>  
+                              <th>Age</th> 
+                            </tr> 
+                            <tr> 
+                              <td>Priya</td> 
+                              <td>Sharma</td> 
+                              <td>24</td> 
+                            </tr> 
+                            <tr> 
+                              <td>Arun</td> 
+                              <td>Singh</td> 
+                              <td>32</td> 
+                            </tr> 
+                            <tr> 
+                              <td>Sam</td> 
+                              <td>Watson</td> 
+                              <td>41</td> 
+                            </tr> 
+                          </table> 
+            </div>
+            <!-- COLOR MIXER -->
+            <div id = "page3" class = "main-content">
+                <div id = "color-box">
+                </div>
+                <div class="slide-container">
+                    <input type="range" min="0" max="255" value="50" class="slider" id="red-range">
+                    <p>Red Value: <span id="red-text"></span></p>
+                    <input type="range" min="0" max="255" value="50" class="slider" id="green-range">
+                    <p>Green Value: <span id="green-text"></span></p>
+                    <input type="range" min="0" max="255" value="50" class="slider" id="blue-range">
+                    <p>Blue Value: <span id="blue-text"></span></p>
+                    <input type="range" min="0" max="100" value="100" class="slider" id="alpha-range">
+                    <p>Opacity Value: <span id="alpha-text"></span></p>
+                    <br>
+                    <p>Hex color code: <span id = "hex-text"></span></p>
+                </div>
+            </div>
+            <!-- END COLOR MIXER -->
+            <div id = "page4" class = "main-content"> 
+
+                <center><h2>Westworld</h2></center>
+                    <img width =100 src = "img/westworld.jpg" style="margin:15px;float:right;">
+                A sci-fi drama set in an Old West theme park where guests interact with automatons in scenarios that are developed, overseen and scripted by the park's creative, security and quality assurance departments.
+Genre:	Science Fiction & Fantasy
+Network:	HBO
+Premiere Date:	Oct 2, 2016
+Exec. Producers:	Bryan Burk, J.J. Abrams, Jerry Weintraub, Jonathan Nolan, Lisa Joy
+                
+            </div>
+            <div id = "page5" class = "main-content">
+                    <form style="width: 600px; display:block; margin: 0 auto;">
+                            <div style="display: inline-block;width: 10%;"><label for="name">Name:</label></div>
+                            <input type="name" placeholder="Email" style="padding : 5px;width: 50%;" /><br><br>
+                            <div style="display: inline-block;width: 10%;"><label for="password">Address:</label></div>
+                            <input type="text" placeholder="Address" style="padding : 5px;width: 50%;"/><br><br>
+                            <input type="submit" value="Submit" style="display: block;margin: 0 auto;"/>
+                    </form>
+            </div>
+            
             <div class="right-side-bar">
                 Right-side-bar
             </div>
         </div>
-        
+        <div class="footer">
+
+        </div>
     </div>
 </body>
-
+<script type= "text/javascript" src="webscript.js"></script>
 </html>
