@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Graph | WT </title>
+    <link rel="stylesheet" href="graphstyle.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bezier curve</h2>
+        <div class="left-box">
+            <canvas id="myCanvas" width="600" height="600" style="border: 1px solid grey;"></canvas>
+        </div>
+        <div class="right-box">
+            <p>Bezier Curve Control</p>
+            <div class="control-element">
+                <label>X1 :</label>
+                <p id="x1_output" type="text"></p>
+            </div>
+            <div class="control-element">
+                <label>Y1 :</label>
+                <p id="y1_output" type="text"></p>
+            </div>
+            <div class="control-element">
+                <label>CX1:</label>
+                <p id="cx1_output" type="text"></p>
+            </div>
+            <div class="control-element">
+                <label>CY1:</label>
+                <p id="cy1_output" type="text"></p>
+            </div>
+            <div class="control-element">
+                <label>CX2:</label>
+                <p id="cx2_output" type="text"></p>
+            </div>
+            <div class="control-element">
+                <label>CY2:</label>
+                <p id="cy2_output" type="text"></p>
+            </div>
+            <div class="control-element">
+                <label>X2:</label>
+                <p id="x2_output" type="text"></p>
+            </div>
+            <div class="control-element">
+                <label>Y2:</label>
+                <p id="y2_output" type="text"></p>
+            </div>
+            <!-- <button onclick="drawCurve();" style="display:block; margin:0 auto;">Draw Curve!</button> -->
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="graphscript.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+canvas {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, lightgrey 1px, transparent 1px), linear-gradient(to bottom, lightgrey 1px, transparent 1px);
+
+}
+
+.container {
+    padding: 30px;
+    /* text-align: center;    */
+}
+
+.left-box {
+    float: left;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    background-color: beige;
+}
+
+.right-box {
+    margin-left: 200px;
+    padding: 60px;
+    float: left;
+    border: 2px solid rgb(0, 0, 0, 0.35);
+    border-radius: 10px;
+}
+
+p {
+    display: inline-block;
+    padding: 8px 40px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    border: solid 1px lightgray;
+}
+
+.control-element {
+    padding: 10px
+}
+
+.control-element label {
+    display: inline-block;
+    min-width: 70px;
+}
